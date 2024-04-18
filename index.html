@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maulana Amri Hasan</title>
+  <link rel="website icon" type="gif" href="amr.gif">
+   <meta charset="utf-8">
+   <title>Profile Card Amr🚀</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta property="og:title" content="Hello Guys👋🏻">
+  <meta property="og:url" content="https://amrhub.000webhostapp.com">
+<meta property="og:description" content="Portfolio website | Web Developer in training">
+<meta property="og:image" content="https://wallpapers.com/images/high/aesthetic-pixel-art-of-city-japanese-shrine-pfjpqy5wipqo95ib.webp">
+   <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/png/jpg" href="https://wallpapers.com/images/high/man-in-a-hoodie-aesthetic-pixel-art-7g3a5c65m4r1407x.webp">
+   <style>
+       #loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 9999;
+}
+
+.loader {
+  border: 5px solid transparent;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite, changeColor 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes changeColor {
+  0% { border-top: 5px solid #3498db; }
+  25% { border-top: 5px solid #e74c3c; }
+  50% { border-top: 5px solid #2ecc71; }
+  75% { border-top: 5px solid #f1c40f; }
+  100% { border-top: 5px solid #3498db; }
+}
+   </style>
+</head>
+<body>
+    <audio id="myAudio" autoplay>
+  <source src="Audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+   <div id="loading">
+      <div class="loader"></div>
+   </div>
+  
+   <div class="card" id="profile-card">
+      <div class="img-box">
+        <img src="Amr.gif" alt="profile pic">
+      </div>
+      <div class="info">
+      <h2>
+        <span>yvngamr</span>
+        <svg style="color: #2b79fa; vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </svg>
+      </h2>
+      <h4>Junior Web Development💻</h4>
+      <p><i>Holla my name Amri from school MAN 2 MAJALENGKA, I'm junior web development since 1 years, I'm interested in web development due to making me feel imagination, hopefully we can be friends🙌🏻😉</i></p>
+           <button class="button-85" role="button" onclick="window.location.href='https://maulanaamri.000webhostapp.com'">Click Me</button>
+   </div>
+
+   <script>
+      // Event saat semua konten telah dimuat
+  document.addEventListener("DOMContentLoaded", function() {
+    // Tampilkan elemen loading selama 4 detik
+    setTimeout(function () {
+        var loadingOverlay = document.getElementById('loading');
+        loadingOverlay.style.display = 'none';
+        
+        // Setelah loading selesai, memainkan audio
+        var audio = document.getElementById("myAudio");
+        audio.play();
+    }, 4000); // 4000 milidetik = 4 detik
+  });
+   </script>
+</body>
+</html>
