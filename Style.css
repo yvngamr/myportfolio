@@ -38,7 +38,7 @@ body {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Contains the image */
+
 .img-box {
   position: absolute;
   top: 10px;
@@ -53,7 +53,7 @@ body {
 /* The image dimensions change on hover and the underlying information shows up */
 .card:hover .img-box {
   top: 10px;
-  bottom: 200px;
+  bottom: 210px;
   right: 10px;
   left: 10px;
   border-radius: 8px;
@@ -74,7 +74,6 @@ img {
   border-radius: 10px;
 }
 
-/* Contains the name, designation, and a button to contact */
 .info {
   position: absolute;
   bottom: 30px;
@@ -85,21 +84,21 @@ img {
   
 }
 
-/* Style the name */
+
 span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: white;
 }
 
-/* Style the text */
+
 h4 {
   font-size: 15px;
   margin-bottom: 8px;
   color: white;
 }
 
-/* Style the paragraph which contains the designation */
+
 p {
   margin: auto;
   text-align: center;
@@ -108,7 +107,7 @@ p {
   margin-bottom: 8px;
 }
 
-/* Button contact */
+
 .container {
   position: relative;
   background-color:;
