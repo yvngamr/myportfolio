@@ -76,7 +76,7 @@ img {
 
 .info {
   position: absolute;
-  bottom: 32px;
+  bottom: -32px;
   right: 10px;
   left: 10px;
   text-align: center;
