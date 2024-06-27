@@ -53,7 +53,7 @@ body {
 /* The image dimensions change on hover and the underlying information shows up */
 .card:hover .img-box {
   top: 10px;
-  bottom: 190px;
+  bottom: 200px;
   right: 10px;
   left: 10px;
   border-radius: 8px;
