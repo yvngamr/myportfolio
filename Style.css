@@ -29,8 +29,8 @@ body {
 }
 
 .card {
-  width: 325px;
-  height: 405px;
+  width: 395px;
+  height: 425px;
   background-color: rgba(255, 255, 255, 0); 
   border-radius: 15px;
   position: relative;
@@ -104,7 +104,7 @@ h4 {
 p {
   margin: auto;
   text-align: center;
-  font-size: 9.3px;
+  font-size: 9.5px;
   color: white;
   margin-bottom: 9px;
 }
